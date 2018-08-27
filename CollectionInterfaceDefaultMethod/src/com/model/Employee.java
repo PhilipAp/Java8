@@ -19,6 +19,8 @@ public class Employee implements Serializable{
 		this.salary = salary;
 		this.departmentName = departmentName;
 	}
+	
+	public Employee(){}
 
 	public String getName() {
 		return name;
